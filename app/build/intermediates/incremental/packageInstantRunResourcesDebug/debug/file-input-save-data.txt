@@ -1,0 +1,19 @@
+#Internal package file, do not edit.
+#Fri Jan 12 18:57:20 CST 2018
+1.base=/Users/manina7539/Desktop/git/android/gles3jni/app/build/intermediates/assets/debug
+2.path=ShaderES2/shader.vert
+0.baseType=DIRECTORY
+3.baseType=DIRECTORY
+2.base=/Users/manina7539/Desktop/git/android/gles3jni/app/build/intermediates/assets/debug
+3.set=ASSET
+2.set=ASSET
+1.baseType=DIRECTORY
+3.path=ShaderES3/shader.vert
+count=4
+1.set=ASSET
+0.path=ShaderES2/shader.frag
+3.base=/Users/manina7539/Desktop/git/android/gles3jni/app/build/intermediates/assets/debug
+0.set=ASSET
+0.base=/Users/manina7539/Desktop/git/android/gles3jni/app/build/intermediates/assets/debug
+2.baseType=DIRECTORY
+1.path=ShaderES3/shader.frag

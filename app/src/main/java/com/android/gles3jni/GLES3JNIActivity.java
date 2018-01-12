@@ -17,17 +17,7 @@
 package com.android.gles3jni;
 
 import android.app.Activity;
-import android.opengl.GLSurfaceView;
 import android.os.Bundle;
-import android.util.Log;
-import android.view.WindowManager;
-
-import java.io.File;
-
-import javax.microedition.khronos.egl.EGL10;
-import javax.microedition.khronos.egl.EGLConfig;
-import javax.microedition.khronos.egl.EGLContext;
-import javax.microedition.khronos.egl.EGLDisplay;
 
 public class GLES3JNIActivity extends Activity {
 
@@ -51,4 +41,5 @@ public class GLES3JNIActivity extends Activity {
         super.onResume();
         mView.onResume();
     }
+
 }

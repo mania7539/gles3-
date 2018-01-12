@@ -25,7 +25,9 @@
 #define SCALEROT_ATTRIB 2
 #define OFFSET_ATTRIB 3
 
-static const char VERTEX_SHADER[] =
+//static const char* VERTEX_SHADER;
+//static const char* FRAGMENT_SHADER;
+static const char* VERTEX_SHADER =
     "#version 300 es\n"
     "layout(location = " STRV(POS_ATTRIB) ") in vec2 pos;\n"
     "layout(location=" STRV(COLOR_ATTRIB) ") in vec4 color;\n"
@@ -38,7 +40,7 @@ static const char VERTEX_SHADER[] =
     "    vColor = color;\n"
     "}\n";
 
-static const char FRAGMENT_SHADER[] =
+static const char* FRAGMENT_SHADER =
     "#version 300 es\n"
     "precision mediump float;\n"
     "in vec4 vColor;\n"
@@ -51,6 +53,7 @@ class RendererES3: public Renderer {
 public:
     RendererES3();
     virtual ~RendererES3();
+    virtual bool loadShaderInText(const char *fragmentShader, const char *vertexShader);
     bool init();
 
 private:
@@ -77,6 +80,16 @@ Renderer* createES3Renderer() {
     return renderer;
 }
 
+Renderer* createES3RendererWithShader(const char *fragmentShader, const char *vertexShader) {
+    RendererES3* renderer = new RendererES3;
+    renderer->loadShaderInText(fragmentShader, vertexShader);
+    if (!renderer->init()) {
+        delete renderer;
+        return NULL;
+    }
+    return renderer;
+}
+
 RendererES3::RendererES3()
 :   mEglContext(eglGetCurrentContext()),
     mProgram(0),
@@ -84,6 +97,16 @@ RendererES3::RendererES3()
 {
     for (int i = 0; i < VB_COUNT; i++)
         mVB[i] = 0;
+}
+
+bool RendererES3::loadShaderInText(const char *vertexShader, const char *fragmentShader) {
+    VERTEX_SHADER = vertexShader;
+    FRAGMENT_SHADER = fragmentShader;
+
+    __android_log_print(ANDROID_LOG_WARN, "loadShaderInText", "VERTEX_SHADER: \n%s", VERTEX_SHADER);
+    __android_log_print(ANDROID_LOG_WARN, "loadShaderInText", "FRAGMENT_SHADER: \n%s", FRAGMENT_SHADER);
+
+    return true;
 }
 
 bool RendererES3::init() {

@@ -52,7 +52,7 @@ rule CXX_SHARED_LIBRARY_LINKER__gles3jni
 # Rule for re-running cmake.
 
 rule RERUN_CMAKE
-  command = /Users/manina7539/Desktop/Driver/Android/Sdk/cmake/3.6.4111459/bin/cmake -H/Users/manina7539/Desktop/git/android/googles-ndk-samples/gles3jni/app/src/main/cpp -B/Users/manina7539/Desktop/git/android/googles-ndk-samples/gles3jni/app/.externalNativeBuild/cmake/release/x86_64
+  command = /Users/manina7539/Desktop/Driver/Android/Sdk/cmake/3.6.4111459/bin/cmake -H/Users/manina7539/Desktop/git/android/gles3jni/app/src/main/cpp -B/Users/manina7539/Desktop/git/android/gles3jni/app/.externalNativeBuild/cmake/release/x86_64
   description = Re-running CMake...
   generator = 1
 

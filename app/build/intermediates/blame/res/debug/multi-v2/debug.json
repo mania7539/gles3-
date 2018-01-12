@@ -1,10 +1,10 @@
 {
     "logs": [
         {
-            "outputFile": "/Users/manina7539/Desktop/git/android/googles-ndk-samples/gles3jni/app/build/intermediates/res/merged/debug/values_values.arsc.flat",
+            "outputFile": "/Users/manina7539/Desktop/git/android/gles3jni/app/build/intermediates/res/merged/debug/values_values.arsc.flat",
             "map": [
                 {
-                    "source": "/Users/manina7539/Desktop/git/android/googles-ndk-samples/gles3jni/app/src/main/res/values/strings.xml",
+                    "source": "/Users/manina7539/Desktop/git/android/gles3jni/app/src/main/res/values/strings.xml",
                     "from": {
                         "startLines": "21",
                         "startColumns": "4",

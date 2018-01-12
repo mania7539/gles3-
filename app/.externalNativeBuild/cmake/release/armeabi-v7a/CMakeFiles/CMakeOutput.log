@@ -1,19 +1,19 @@
 The target system is: Android - 1 - armv7-a
-The host system is: Darwin - 16.7.0 - x86_64
+The host system is: Darwin - 17.3.0 - x86_64
 Determining if the C compiler works passed with the following output:
-Change Dir: /Users/manina7539/Desktop/git/android/googles-ndk-samples/gles3jni/app/.externalNativeBuild/cmake/release/armeabi-v7a/CMakeFiles/CMakeTmp
+Change Dir: /Users/manina7539/Desktop/git/android/gles3jni/app/.externalNativeBuild/cmake/release/armeabi-v7a/CMakeFiles/CMakeTmp
 
-Run Build Command:"/Users/manina7539/Desktop/Driver/Android/Sdk/cmake/3.6.4111459/bin/ninja" "cmTC_19da7"
-[1/2] Building C object CMakeFiles/cmTC_19da7.dir/testCCompiler.c.o
-[2/2] Linking C executable cmTC_19da7
+Run Build Command:"/Users/manina7539/Desktop/Driver/Android/Sdk/cmake/3.6.4111459/bin/ninja" "cmTC_39a0e"
+[1/2] Building C object CMakeFiles/cmTC_39a0e.dir/testCCompiler.c.o
+[2/2] Linking C executable cmTC_39a0e
 
 
 Detecting C compiler ABI info compiled with the following output:
-Change Dir: /Users/manina7539/Desktop/git/android/googles-ndk-samples/gles3jni/app/.externalNativeBuild/cmake/release/armeabi-v7a/CMakeFiles/CMakeTmp
+Change Dir: /Users/manina7539/Desktop/git/android/gles3jni/app/.externalNativeBuild/cmake/release/armeabi-v7a/CMakeFiles/CMakeTmp
 
-Run Build Command:"/Users/manina7539/Desktop/Driver/Android/Sdk/cmake/3.6.4111459/bin/ninja" "cmTC_77701"
-[1/2] Building C object CMakeFiles/cmTC_77701.dir/CMakeCCompilerABI.c.o
-[2/2] Linking C executable cmTC_77701
+Run Build Command:"/Users/manina7539/Desktop/Driver/Android/Sdk/cmake/3.6.4111459/bin/ninja" "cmTC_7367e"
+[1/2] Building C object CMakeFiles/cmTC_7367e.dir/CMakeCCompilerABI.c.o
+[2/2] Linking C executable cmTC_7367e
 Android clang version 5.0.300080  (based on LLVM 5.0.300080)
 Target: armv7-none-linux-android
 Thread model: posix
@@ -25,16 +25,16 @@ Candidate multilib: armv7-a;@armv7
 Candidate multilib: armv7-a/thumb;@armv7@thumb
 Candidate multilib: .;
 Selected multilib: armv7-a/thumb;@armv7@thumb
- "/Users/manina7539/Desktop/Driver/Android/Sdk/ndk-bundle/toolchains/arm-linux-androideabi-4.9/prebuilt/darwin-x86_64/lib/gcc/arm-linux-androideabi/4.9.x/../../../../arm-linux-androideabi/bin/ld" --sysroot=/Users/manina7539/Desktop/Driver/Android/Sdk/ndk-bundle/platforms/android-18/arch-arm -pie -X --eh-frame-hdr -m armelf_linux_eabi -dynamic-linker /system/bin/linker -o cmTC_77701 /Users/manina7539/Desktop/Driver/Android/Sdk/ndk-bundle/platforms/android-18/arch-arm/usr/lib/../lib/crtbegin_dynamic.o -L/Users/manina7539/Desktop/Driver/Android/Sdk/ndk-bundle/toolchains/llvm/prebuilt/darwin-x86_64/lib64/clang/5.0.300080/lib/linux/arm -L/Users/manina7539/Desktop/Driver/Android/Sdk/ndk-bundle/toolchains/arm-linux-androideabi-4.9/prebuilt/darwin-x86_64/lib/gcc/arm-linux-androideabi/4.9.x/armv7-a/thumb -L/Users/manina7539/Desktop/Driver/Android/Sdk/ndk-bundle/toolchains/arm-linux-androideabi-4.9/prebuilt/darwin-x86_64/lib/gcc/arm-linux-androideabi/4.9.x/../../../../arm-linux-androideabi/lib/../lib/armv7-a/thumb -L/Users/manina7539/Desktop/Driver/Android/Sdk/ndk-bundle/platforms/android-18/arch-arm/usr/lib/../lib -L/Users/manina7539/Desktop/Driver/Android/Sdk/ndk-bundle/toolchains/arm-linux-androideabi-4.9/prebuilt/darwin-x86_64/lib/gcc/arm-linux-androideabi/4.9.x/../../../../arm-linux-androideabi/lib/armv7-a/thumb -L/Users/manina7539/Desktop/Driver/Android/Sdk/ndk-bundle/platforms/android-18/arch-arm/usr/lib --exclude-libs libgcc.a --exclude-libs libatomic.a --build-id --warn-shared-textrel --fatal-warnings --fix-cortex-a8 --no-undefined -z noexecstack -z relro -z now --gc-sections -z nocopyreloc CMakeFiles/cmTC_77701.dir/CMakeCCompilerABI.c.o -lgcc -ldl -lc -lgcc -ldl /Users/manina7539/Desktop/Driver/Android/Sdk/ndk-bundle/platforms/android-18/arch-arm/usr/lib/../lib/crtend_android.o
+ "/Users/manina7539/Desktop/Driver/Android/Sdk/ndk-bundle/toolchains/arm-linux-androideabi-4.9/prebuilt/darwin-x86_64/lib/gcc/arm-linux-androideabi/4.9.x/../../../../arm-linux-androideabi/bin/ld" --sysroot=/Users/manina7539/Desktop/Driver/Android/Sdk/ndk-bundle/platforms/android-18/arch-arm -pie -X --eh-frame-hdr -m armelf_linux_eabi -dynamic-linker /system/bin/linker -o cmTC_7367e /Users/manina7539/Desktop/Driver/Android/Sdk/ndk-bundle/platforms/android-18/arch-arm/usr/lib/../lib/crtbegin_dynamic.o -L/Users/manina7539/Desktop/Driver/Android/Sdk/ndk-bundle/toolchains/llvm/prebuilt/darwin-x86_64/lib64/clang/5.0.300080/lib/linux/arm -L/Users/manina7539/Desktop/Driver/Android/Sdk/ndk-bundle/toolchains/arm-linux-androideabi-4.9/prebuilt/darwin-x86_64/lib/gcc/arm-linux-androideabi/4.9.x/armv7-a/thumb -L/Users/manina7539/Desktop/Driver/Android/Sdk/ndk-bundle/toolchains/arm-linux-androideabi-4.9/prebuilt/darwin-x86_64/lib/gcc/arm-linux-androideabi/4.9.x/../../../../arm-linux-androideabi/lib/../lib/armv7-a/thumb -L/Users/manina7539/Desktop/Driver/Android/Sdk/ndk-bundle/platforms/android-18/arch-arm/usr/lib/../lib -L/Users/manina7539/Desktop/Driver/Android/Sdk/ndk-bundle/toolchains/arm-linux-androideabi-4.9/prebuilt/darwin-x86_64/lib/gcc/arm-linux-androideabi/4.9.x/../../../../arm-linux-androideabi/lib/armv7-a/thumb -L/Users/manina7539/Desktop/Driver/Android/Sdk/ndk-bundle/platforms/android-18/arch-arm/usr/lib --exclude-libs libgcc.a --exclude-libs libatomic.a --build-id --warn-shared-textrel --fatal-warnings --fix-cortex-a8 --no-undefined -z noexecstack -z relro -z now --gc-sections -z nocopyreloc CMakeFiles/cmTC_7367e.dir/CMakeCCompilerABI.c.o -lgcc -ldl -lc -lgcc -ldl /Users/manina7539/Desktop/Driver/Android/Sdk/ndk-bundle/platforms/android-18/arch-arm/usr/lib/../lib/crtend_android.o
 
 
 Parsed C implicit link information from above output:
   link line regex: [^( *|.*[/\])(arm-linux-androideabi-ld|([^/\]+-)?ld|collect2)[^/\]*( |$)]
-  ignore line: [Change Dir: /Users/manina7539/Desktop/git/android/googles-ndk-samples/gles3jni/app/.externalNativeBuild/cmake/release/armeabi-v7a/CMakeFiles/CMakeTmp]
+  ignore line: [Change Dir: /Users/manina7539/Desktop/git/android/gles3jni/app/.externalNativeBuild/cmake/release/armeabi-v7a/CMakeFiles/CMakeTmp]
   ignore line: []
-  ignore line: [Run Build Command:"/Users/manina7539/Desktop/Driver/Android/Sdk/cmake/3.6.4111459/bin/ninja" "cmTC_77701"]
-  ignore line: [[1/2] Building C object CMakeFiles/cmTC_77701.dir/CMakeCCompilerABI.c.o]
-  ignore line: [[2/2] Linking C executable cmTC_77701]
+  ignore line: [Run Build Command:"/Users/manina7539/Desktop/Driver/Android/Sdk/cmake/3.6.4111459/bin/ninja" "cmTC_7367e"]
+  ignore line: [[1/2] Building C object CMakeFiles/cmTC_7367e.dir/CMakeCCompilerABI.c.o]
+  ignore line: [[2/2] Linking C executable cmTC_7367e]
   ignore line: [Android clang version 5.0.300080  (based on LLVM 5.0.300080)]
   ignore line: [Target: armv7-none-linux-android]
   ignore line: [Thread model: posix]
@@ -51,7 +51,7 @@ Parsed C implicit link information from above output:
   ignore line: []
   ignore line: [Selected multilib: armv7-a/thumb]
   ignore line: [@armv7@thumb]
-  link line: [ "/Users/manina7539/Desktop/Driver/Android/Sdk/ndk-bundle/toolchains/arm-linux-androideabi-4.9/prebuilt/darwin-x86_64/lib/gcc/arm-linux-androideabi/4.9.x/../../../../arm-linux-androideabi/bin/ld" --sysroot=/Users/manina7539/Desktop/Driver/Android/Sdk/ndk-bundle/platforms/android-18/arch-arm -pie -X --eh-frame-hdr -m armelf_linux_eabi -dynamic-linker /system/bin/linker -o cmTC_77701 /Users/manina7539/Desktop/Driver/Android/Sdk/ndk-bundle/platforms/android-18/arch-arm/usr/lib/../lib/crtbegin_dynamic.o -L/Users/manina7539/Desktop/Driver/Android/Sdk/ndk-bundle/toolchains/llvm/prebuilt/darwin-x86_64/lib64/clang/5.0.300080/lib/linux/arm -L/Users/manina7539/Desktop/Driver/Android/Sdk/ndk-bundle/toolchains/arm-linux-androideabi-4.9/prebuilt/darwin-x86_64/lib/gcc/arm-linux-androideabi/4.9.x/armv7-a/thumb -L/Users/manina7539/Desktop/Driver/Android/Sdk/ndk-bundle/toolchains/arm-linux-androideabi-4.9/prebuilt/darwin-x86_64/lib/gcc/arm-linux-androideabi/4.9.x/../../../../arm-linux-androideabi/lib/../lib/armv7-a/thumb -L/Users/manina7539/Desktop/Driver/Android/Sdk/ndk-bundle/platforms/android-18/arch-arm/usr/lib/../lib -L/Users/manina7539/Desktop/Driver/Android/Sdk/ndk-bundle/toolchains/arm-linux-androideabi-4.9/prebuilt/darwin-x86_64/lib/gcc/arm-linux-androideabi/4.9.x/../../../../arm-linux-androideabi/lib/armv7-a/thumb -L/Users/manina7539/Desktop/Driver/Android/Sdk/ndk-bundle/platforms/android-18/arch-arm/usr/lib --exclude-libs libgcc.a --exclude-libs libatomic.a --build-id --warn-shared-textrel --fatal-warnings --fix-cortex-a8 --no-undefined -z noexecstack -z relro -z now --gc-sections -z nocopyreloc CMakeFiles/cmTC_77701.dir/CMakeCCompilerABI.c.o -lgcc -ldl -lc -lgcc -ldl /Users/manina7539/Desktop/Driver/Android/Sdk/ndk-bundle/platforms/android-18/arch-arm/usr/lib/../lib/crtend_android.o]
+  link line: [ "/Users/manina7539/Desktop/Driver/Android/Sdk/ndk-bundle/toolchains/arm-linux-androideabi-4.9/prebuilt/darwin-x86_64/lib/gcc/arm-linux-androideabi/4.9.x/../../../../arm-linux-androideabi/bin/ld" --sysroot=/Users/manina7539/Desktop/Driver/Android/Sdk/ndk-bundle/platforms/android-18/arch-arm -pie -X --eh-frame-hdr -m armelf_linux_eabi -dynamic-linker /system/bin/linker -o cmTC_7367e /Users/manina7539/Desktop/Driver/Android/Sdk/ndk-bundle/platforms/android-18/arch-arm/usr/lib/../lib/crtbegin_dynamic.o -L/Users/manina7539/Desktop/Driver/Android/Sdk/ndk-bundle/toolchains/llvm/prebuilt/darwin-x86_64/lib64/clang/5.0.300080/lib/linux/arm -L/Users/manina7539/Desktop/Driver/Android/Sdk/ndk-bundle/toolchains/arm-linux-androideabi-4.9/prebuilt/darwin-x86_64/lib/gcc/arm-linux-androideabi/4.9.x/armv7-a/thumb -L/Users/manina7539/Desktop/Driver/Android/Sdk/ndk-bundle/toolchains/arm-linux-androideabi-4.9/prebuilt/darwin-x86_64/lib/gcc/arm-linux-androideabi/4.9.x/../../../../arm-linux-androideabi/lib/../lib/armv7-a/thumb -L/Users/manina7539/Desktop/Driver/Android/Sdk/ndk-bundle/platforms/android-18/arch-arm/usr/lib/../lib -L/Users/manina7539/Desktop/Driver/Android/Sdk/ndk-bundle/toolchains/arm-linux-androideabi-4.9/prebuilt/darwin-x86_64/lib/gcc/arm-linux-androideabi/4.9.x/../../../../arm-linux-androideabi/lib/armv7-a/thumb -L/Users/manina7539/Desktop/Driver/Android/Sdk/ndk-bundle/platforms/android-18/arch-arm/usr/lib --exclude-libs libgcc.a --exclude-libs libatomic.a --build-id --warn-shared-textrel --fatal-warnings --fix-cortex-a8 --no-undefined -z noexecstack -z relro -z now --gc-sections -z nocopyreloc CMakeFiles/cmTC_7367e.dir/CMakeCCompilerABI.c.o -lgcc -ldl -lc -lgcc -ldl /Users/manina7539/Desktop/Driver/Android/Sdk/ndk-bundle/platforms/android-18/arch-arm/usr/lib/../lib/crtend_android.o]
     arg [/Users/manina7539/Desktop/Driver/Android/Sdk/ndk-bundle/toolchains/arm-linux-androideabi-4.9/prebuilt/darwin-x86_64/lib/gcc/arm-linux-androideabi/4.9.x/../../../../arm-linux-androideabi/bin/ld] ==> ignore
     arg [--sysroot=/Users/manina7539/Desktop/Driver/Android/Sdk/ndk-bundle/platforms/android-18/arch-arm] ==> ignore
     arg [-pie] ==> ignore
@@ -62,7 +62,7 @@ Parsed C implicit link information from above output:
     arg [-dynamic-linker] ==> ignore
     arg [/system/bin/linker] ==> ignore
     arg [-o] ==> ignore
-    arg [cmTC_77701] ==> ignore
+    arg [cmTC_7367e] ==> ignore
     arg [/Users/manina7539/Desktop/Driver/Android/Sdk/ndk-bundle/platforms/android-18/arch-arm/usr/lib/../lib/crtbegin_dynamic.o] ==> ignore
     arg [-L/Users/manina7539/Desktop/Driver/Android/Sdk/ndk-bundle/toolchains/llvm/prebuilt/darwin-x86_64/lib64/clang/5.0.300080/lib/linux/arm] ==> dir [/Users/manina7539/Desktop/Driver/Android/Sdk/ndk-bundle/toolchains/llvm/prebuilt/darwin-x86_64/lib64/clang/5.0.300080/lib/linux/arm]
     arg [-L/Users/manina7539/Desktop/Driver/Android/Sdk/ndk-bundle/toolchains/arm-linux-androideabi-4.9/prebuilt/darwin-x86_64/lib/gcc/arm-linux-androideabi/4.9.x/armv7-a/thumb] ==> dir [/Users/manina7539/Desktop/Driver/Android/Sdk/ndk-bundle/toolchains/arm-linux-androideabi-4.9/prebuilt/darwin-x86_64/lib/gcc/arm-linux-androideabi/4.9.x/armv7-a/thumb]
@@ -84,7 +84,7 @@ Parsed C implicit link information from above output:
     arg [-znow] ==> ignore
     arg [--gc-sections] ==> ignore
     arg [-znocopyreloc] ==> ignore
-    arg [CMakeFiles/cmTC_77701.dir/CMakeCCompilerABI.c.o] ==> ignore
+    arg [CMakeFiles/cmTC_7367e.dir/CMakeCCompilerABI.c.o] ==> ignore
     arg [-lgcc] ==> lib [gcc]
     arg [-ldl] ==> lib [dl]
     arg [-lc] ==> lib [c]
@@ -107,11 +107,11 @@ Parsed C implicit link information from above output:
 
 
 Detecting C [-std=c11] compiler features compiled with the following output:
-Change Dir: /Users/manina7539/Desktop/git/android/googles-ndk-samples/gles3jni/app/.externalNativeBuild/cmake/release/armeabi-v7a/CMakeFiles/CMakeTmp
+Change Dir: /Users/manina7539/Desktop/git/android/gles3jni/app/.externalNativeBuild/cmake/release/armeabi-v7a/CMakeFiles/CMakeTmp
 
-Run Build Command:"/Users/manina7539/Desktop/Driver/Android/Sdk/cmake/3.6.4111459/bin/ninja" "cmTC_85cd8"
-[1/2] Building C object CMakeFiles/cmTC_85cd8.dir/feature_tests.c.o
-[2/2] Linking C executable cmTC_85cd8
+Run Build Command:"/Users/manina7539/Desktop/Driver/Android/Sdk/cmake/3.6.4111459/bin/ninja" "cmTC_75843"
+[1/2] Building C object CMakeFiles/cmTC_75843.dir/feature_tests.c.o
+[2/2] Linking C executable cmTC_75843
 
 
     Feature record: C_FEATURE:1c_function_prototypes
@@ -121,11 +121,11 @@ Run Build Command:"/Users/manina7539/Desktop/Driver/Android/Sdk/cmake/3.6.411145
 
 
 Detecting C [-std=c99] compiler features compiled with the following output:
-Change Dir: /Users/manina7539/Desktop/git/android/googles-ndk-samples/gles3jni/app/.externalNativeBuild/cmake/release/armeabi-v7a/CMakeFiles/CMakeTmp
+Change Dir: /Users/manina7539/Desktop/git/android/gles3jni/app/.externalNativeBuild/cmake/release/armeabi-v7a/CMakeFiles/CMakeTmp
 
-Run Build Command:"/Users/manina7539/Desktop/Driver/Android/Sdk/cmake/3.6.4111459/bin/ninja" "cmTC_3ab78"
-[1/2] Building C object CMakeFiles/cmTC_3ab78.dir/feature_tests.c.o
-[2/2] Linking C executable cmTC_3ab78
+Run Build Command:"/Users/manina7539/Desktop/Driver/Android/Sdk/cmake/3.6.4111459/bin/ninja" "cmTC_944e2"
+[1/2] Building C object CMakeFiles/cmTC_944e2.dir/feature_tests.c.o
+[2/2] Linking C executable cmTC_944e2
 
 
     Feature record: C_FEATURE:1c_function_prototypes
@@ -135,11 +135,11 @@ Run Build Command:"/Users/manina7539/Desktop/Driver/Android/Sdk/cmake/3.6.411145
 
 
 Detecting C [-std=c90] compiler features compiled with the following output:
-Change Dir: /Users/manina7539/Desktop/git/android/googles-ndk-samples/gles3jni/app/.externalNativeBuild/cmake/release/armeabi-v7a/CMakeFiles/CMakeTmp
+Change Dir: /Users/manina7539/Desktop/git/android/gles3jni/app/.externalNativeBuild/cmake/release/armeabi-v7a/CMakeFiles/CMakeTmp
 
-Run Build Command:"/Users/manina7539/Desktop/Driver/Android/Sdk/cmake/3.6.4111459/bin/ninja" "cmTC_fd87d"
-[1/2] Building C object CMakeFiles/cmTC_fd87d.dir/feature_tests.c.o
-[2/2] Linking C executable cmTC_fd87d
+Run Build Command:"/Users/manina7539/Desktop/Driver/Android/Sdk/cmake/3.6.4111459/bin/ninja" "cmTC_a7682"
+[1/2] Building C object CMakeFiles/cmTC_a7682.dir/feature_tests.c.o
+[2/2] Linking C executable cmTC_a7682
 
 
     Feature record: C_FEATURE:1c_function_prototypes
@@ -147,19 +147,19 @@ Run Build Command:"/Users/manina7539/Desktop/Driver/Android/Sdk/cmake/3.6.411145
     Feature record: C_FEATURE:0c_static_assert
     Feature record: C_FEATURE:0c_variadic_macros
 Determining if the CXX compiler works passed with the following output:
-Change Dir: /Users/manina7539/Desktop/git/android/googles-ndk-samples/gles3jni/app/.externalNativeBuild/cmake/release/armeabi-v7a/CMakeFiles/CMakeTmp
+Change Dir: /Users/manina7539/Desktop/git/android/gles3jni/app/.externalNativeBuild/cmake/release/armeabi-v7a/CMakeFiles/CMakeTmp
 
-Run Build Command:"/Users/manina7539/Desktop/Driver/Android/Sdk/cmake/3.6.4111459/bin/ninja" "cmTC_179c8"
-[1/2] Building CXX object CMakeFiles/cmTC_179c8.dir/testCXXCompiler.cxx.o
-[2/2] Linking CXX executable cmTC_179c8
+Run Build Command:"/Users/manina7539/Desktop/Driver/Android/Sdk/cmake/3.6.4111459/bin/ninja" "cmTC_7f32c"
+[1/2] Building CXX object CMakeFiles/cmTC_7f32c.dir/testCXXCompiler.cxx.o
+[2/2] Linking CXX executable cmTC_7f32c
 
 
 Detecting CXX compiler ABI info compiled with the following output:
-Change Dir: /Users/manina7539/Desktop/git/android/googles-ndk-samples/gles3jni/app/.externalNativeBuild/cmake/release/armeabi-v7a/CMakeFiles/CMakeTmp
+Change Dir: /Users/manina7539/Desktop/git/android/gles3jni/app/.externalNativeBuild/cmake/release/armeabi-v7a/CMakeFiles/CMakeTmp
 
-Run Build Command:"/Users/manina7539/Desktop/Driver/Android/Sdk/cmake/3.6.4111459/bin/ninja" "cmTC_80534"
-[1/2] Building CXX object CMakeFiles/cmTC_80534.dir/CMakeCXXCompilerABI.cpp.o
-[2/2] Linking CXX executable cmTC_80534
+Run Build Command:"/Users/manina7539/Desktop/Driver/Android/Sdk/cmake/3.6.4111459/bin/ninja" "cmTC_b87c5"
+[1/2] Building CXX object CMakeFiles/cmTC_b87c5.dir/CMakeCXXCompilerABI.cpp.o
+[2/2] Linking CXX executable cmTC_b87c5
 Android clang version 5.0.300080  (based on LLVM 5.0.300080)
 Target: armv7-none-linux-android
 Thread model: posix
@@ -171,16 +171,16 @@ Candidate multilib: armv7-a;@armv7
 Candidate multilib: armv7-a/thumb;@armv7@thumb
 Candidate multilib: .;
 Selected multilib: armv7-a/thumb;@armv7@thumb
- "/Users/manina7539/Desktop/Driver/Android/Sdk/ndk-bundle/toolchains/arm-linux-androideabi-4.9/prebuilt/darwin-x86_64/lib/gcc/arm-linux-androideabi/4.9.x/../../../../arm-linux-androideabi/bin/ld" --sysroot=/Users/manina7539/Desktop/Driver/Android/Sdk/ndk-bundle/platforms/android-18/arch-arm -pie -X --eh-frame-hdr -m armelf_linux_eabi -dynamic-linker /system/bin/linker -o cmTC_80534 /Users/manina7539/Desktop/Driver/Android/Sdk/ndk-bundle/platforms/android-18/arch-arm/usr/lib/../lib/crtbegin_dynamic.o -L/Users/manina7539/Desktop/Driver/Android/Sdk/ndk-bundle/toolchains/llvm/prebuilt/darwin-x86_64/lib64/clang/5.0.300080/lib/linux/arm -L/Users/manina7539/Desktop/Driver/Android/Sdk/ndk-bundle/toolchains/arm-linux-androideabi-4.9/prebuilt/darwin-x86_64/lib/gcc/arm-linux-androideabi/4.9.x/armv7-a/thumb -L/Users/manina7539/Desktop/Driver/Android/Sdk/ndk-bundle/toolchains/arm-linux-androideabi-4.9/prebuilt/darwin-x86_64/lib/gcc/arm-linux-androideabi/4.9.x/../../../../arm-linux-androideabi/lib/../lib/armv7-a/thumb -L/Users/manina7539/Desktop/Driver/Android/Sdk/ndk-bundle/platforms/android-18/arch-arm/usr/lib/../lib -L/Users/manina7539/Desktop/Driver/Android/Sdk/ndk-bundle/toolchains/arm-linux-androideabi-4.9/prebuilt/darwin-x86_64/lib/gcc/arm-linux-androideabi/4.9.x/../../../../arm-linux-androideabi/lib/armv7-a/thumb -L/Users/manina7539/Desktop/Driver/Android/Sdk/ndk-bundle/platforms/android-18/arch-arm/usr/lib --exclude-libs libgcc.a --exclude-libs libatomic.a --build-id --warn-shared-textrel --fatal-warnings --fix-cortex-a8 --no-undefined -z noexecstack -z relro -z now --gc-sections -z nocopyreloc CMakeFiles/cmTC_80534.dir/CMakeCXXCompilerABI.cpp.o -lstdc++ -lm -lgcc -lgcc -ldl -lc -lgcc -lgcc -ldl /Users/manina7539/Desktop/Driver/Android/Sdk/ndk-bundle/platforms/android-18/arch-arm/usr/lib/../lib/crtend_android.o
+ "/Users/manina7539/Desktop/Driver/Android/Sdk/ndk-bundle/toolchains/arm-linux-androideabi-4.9/prebuilt/darwin-x86_64/lib/gcc/arm-linux-androideabi/4.9.x/../../../../arm-linux-androideabi/bin/ld" --sysroot=/Users/manina7539/Desktop/Driver/Android/Sdk/ndk-bundle/platforms/android-18/arch-arm -pie -X --eh-frame-hdr -m armelf_linux_eabi -dynamic-linker /system/bin/linker -o cmTC_b87c5 /Users/manina7539/Desktop/Driver/Android/Sdk/ndk-bundle/platforms/android-18/arch-arm/usr/lib/../lib/crtbegin_dynamic.o -L/Users/manina7539/Desktop/Driver/Android/Sdk/ndk-bundle/toolchains/llvm/prebuilt/darwin-x86_64/lib64/clang/5.0.300080/lib/linux/arm -L/Users/manina7539/Desktop/Driver/Android/Sdk/ndk-bundle/toolchains/arm-linux-androideabi-4.9/prebuilt/darwin-x86_64/lib/gcc/arm-linux-androideabi/4.9.x/armv7-a/thumb -L/Users/manina7539/Desktop/Driver/Android/Sdk/ndk-bundle/toolchains/arm-linux-androideabi-4.9/prebuilt/darwin-x86_64/lib/gcc/arm-linux-androideabi/4.9.x/../../../../arm-linux-androideabi/lib/../lib/armv7-a/thumb -L/Users/manina7539/Desktop/Driver/Android/Sdk/ndk-bundle/platforms/android-18/arch-arm/usr/lib/../lib -L/Users/manina7539/Desktop/Driver/Android/Sdk/ndk-bundle/toolchains/arm-linux-androideabi-4.9/prebuilt/darwin-x86_64/lib/gcc/arm-linux-androideabi/4.9.x/../../../../arm-linux-androideabi/lib/armv7-a/thumb -L/Users/manina7539/Desktop/Driver/Android/Sdk/ndk-bundle/platforms/android-18/arch-arm/usr/lib --exclude-libs libgcc.a --exclude-libs libatomic.a --build-id --warn-shared-textrel --fatal-warnings --fix-cortex-a8 --no-undefined -z noexecstack -z relro -z now --gc-sections -z nocopyreloc CMakeFiles/cmTC_b87c5.dir/CMakeCXXCompilerABI.cpp.o -lstdc++ -lm -lgcc -lgcc -ldl -lc -lgcc -lgcc -ldl /Users/manina7539/Desktop/Driver/Android/Sdk/ndk-bundle/platforms/android-18/arch-arm/usr/lib/../lib/crtend_android.o
 
 
 Parsed CXX implicit link information from above output:
   link line regex: [^( *|.*[/\])(arm-linux-androideabi-ld|([^/\]+-)?ld|collect2)[^/\]*( |$)]
-  ignore line: [Change Dir: /Users/manina7539/Desktop/git/android/googles-ndk-samples/gles3jni/app/.externalNativeBuild/cmake/release/armeabi-v7a/CMakeFiles/CMakeTmp]
+  ignore line: [Change Dir: /Users/manina7539/Desktop/git/android/gles3jni/app/.externalNativeBuild/cmake/release/armeabi-v7a/CMakeFiles/CMakeTmp]
   ignore line: []
-  ignore line: [Run Build Command:"/Users/manina7539/Desktop/Driver/Android/Sdk/cmake/3.6.4111459/bin/ninja" "cmTC_80534"]
-  ignore line: [[1/2] Building CXX object CMakeFiles/cmTC_80534.dir/CMakeCXXCompilerABI.cpp.o]
-  ignore line: [[2/2] Linking CXX executable cmTC_80534]
+  ignore line: [Run Build Command:"/Users/manina7539/Desktop/Driver/Android/Sdk/cmake/3.6.4111459/bin/ninja" "cmTC_b87c5"]
+  ignore line: [[1/2] Building CXX object CMakeFiles/cmTC_b87c5.dir/CMakeCXXCompilerABI.cpp.o]
+  ignore line: [[2/2] Linking CXX executable cmTC_b87c5]
   ignore line: [Android clang version 5.0.300080  (based on LLVM 5.0.300080)]
   ignore line: [Target: armv7-none-linux-android]
   ignore line: [Thread model: posix]
@@ -197,7 +197,7 @@ Parsed CXX implicit link information from above output:
   ignore line: []
   ignore line: [Selected multilib: armv7-a/thumb]
   ignore line: [@armv7@thumb]
-  link line: [ "/Users/manina7539/Desktop/Driver/Android/Sdk/ndk-bundle/toolchains/arm-linux-androideabi-4.9/prebuilt/darwin-x86_64/lib/gcc/arm-linux-androideabi/4.9.x/../../../../arm-linux-androideabi/bin/ld" --sysroot=/Users/manina7539/Desktop/Driver/Android/Sdk/ndk-bundle/platforms/android-18/arch-arm -pie -X --eh-frame-hdr -m armelf_linux_eabi -dynamic-linker /system/bin/linker -o cmTC_80534 /Users/manina7539/Desktop/Driver/Android/Sdk/ndk-bundle/platforms/android-18/arch-arm/usr/lib/../lib/crtbegin_dynamic.o -L/Users/manina7539/Desktop/Driver/Android/Sdk/ndk-bundle/toolchains/llvm/prebuilt/darwin-x86_64/lib64/clang/5.0.300080/lib/linux/arm -L/Users/manina7539/Desktop/Driver/Android/Sdk/ndk-bundle/toolchains/arm-linux-androideabi-4.9/prebuilt/darwin-x86_64/lib/gcc/arm-linux-androideabi/4.9.x/armv7-a/thumb -L/Users/manina7539/Desktop/Driver/Android/Sdk/ndk-bundle/toolchains/arm-linux-androideabi-4.9/prebuilt/darwin-x86_64/lib/gcc/arm-linux-androideabi/4.9.x/../../../../arm-linux-androideabi/lib/../lib/armv7-a/thumb -L/Users/manina7539/Desktop/Driver/Android/Sdk/ndk-bundle/platforms/android-18/arch-arm/usr/lib/../lib -L/Users/manina7539/Desktop/Driver/Android/Sdk/ndk-bundle/toolchains/arm-linux-androideabi-4.9/prebuilt/darwin-x86_64/lib/gcc/arm-linux-androideabi/4.9.x/../../../../arm-linux-androideabi/lib/armv7-a/thumb -L/Users/manina7539/Desktop/Driver/Android/Sdk/ndk-bundle/platforms/android-18/arch-arm/usr/lib --exclude-libs libgcc.a --exclude-libs libatomic.a --build-id --warn-shared-textrel --fatal-warnings --fix-cortex-a8 --no-undefined -z noexecstack -z relro -z now --gc-sections -z nocopyreloc CMakeFiles/cmTC_80534.dir/CMakeCXXCompilerABI.cpp.o -lstdc++ -lm -lgcc -lgcc -ldl -lc -lgcc -lgcc -ldl /Users/manina7539/Desktop/Driver/Android/Sdk/ndk-bundle/platforms/android-18/arch-arm/usr/lib/../lib/crtend_android.o]
+  link line: [ "/Users/manina7539/Desktop/Driver/Android/Sdk/ndk-bundle/toolchains/arm-linux-androideabi-4.9/prebuilt/darwin-x86_64/lib/gcc/arm-linux-androideabi/4.9.x/../../../../arm-linux-androideabi/bin/ld" --sysroot=/Users/manina7539/Desktop/Driver/Android/Sdk/ndk-bundle/platforms/android-18/arch-arm -pie -X --eh-frame-hdr -m armelf_linux_eabi -dynamic-linker /system/bin/linker -o cmTC_b87c5 /Users/manina7539/Desktop/Driver/Android/Sdk/ndk-bundle/platforms/android-18/arch-arm/usr/lib/../lib/crtbegin_dynamic.o -L/Users/manina7539/Desktop/Driver/Android/Sdk/ndk-bundle/toolchains/llvm/prebuilt/darwin-x86_64/lib64/clang/5.0.300080/lib/linux/arm -L/Users/manina7539/Desktop/Driver/Android/Sdk/ndk-bundle/toolchains/arm-linux-androideabi-4.9/prebuilt/darwin-x86_64/lib/gcc/arm-linux-androideabi/4.9.x/armv7-a/thumb -L/Users/manina7539/Desktop/Driver/Android/Sdk/ndk-bundle/toolchains/arm-linux-androideabi-4.9/prebuilt/darwin-x86_64/lib/gcc/arm-linux-androideabi/4.9.x/../../../../arm-linux-androideabi/lib/../lib/armv7-a/thumb -L/Users/manina7539/Desktop/Driver/Android/Sdk/ndk-bundle/platforms/android-18/arch-arm/usr/lib/../lib -L/Users/manina7539/Desktop/Driver/Android/Sdk/ndk-bundle/toolchains/arm-linux-androideabi-4.9/prebuilt/darwin-x86_64/lib/gcc/arm-linux-androideabi/4.9.x/../../../../arm-linux-androideabi/lib/armv7-a/thumb -L/Users/manina7539/Desktop/Driver/Android/Sdk/ndk-bundle/platforms/android-18/arch-arm/usr/lib --exclude-libs libgcc.a --exclude-libs libatomic.a --build-id --warn-shared-textrel --fatal-warnings --fix-cortex-a8 --no-undefined -z noexecstack -z relro -z now --gc-sections -z nocopyreloc CMakeFiles/cmTC_b87c5.dir/CMakeCXXCompilerABI.cpp.o -lstdc++ -lm -lgcc -lgcc -ldl -lc -lgcc -lgcc -ldl /Users/manina7539/Desktop/Driver/Android/Sdk/ndk-bundle/platforms/android-18/arch-arm/usr/lib/../lib/crtend_android.o]
     arg [/Users/manina7539/Desktop/Driver/Android/Sdk/ndk-bundle/toolchains/arm-linux-androideabi-4.9/prebuilt/darwin-x86_64/lib/gcc/arm-linux-androideabi/4.9.x/../../../../arm-linux-androideabi/bin/ld] ==> ignore
     arg [--sysroot=/Users/manina7539/Desktop/Driver/Android/Sdk/ndk-bundle/platforms/android-18/arch-arm] ==> ignore
     arg [-pie] ==> ignore
@@ -208,7 +208,7 @@ Parsed CXX implicit link information from above output:
     arg [-dynamic-linker] ==> ignore
     arg [/system/bin/linker] ==> ignore
     arg [-o] ==> ignore
-    arg [cmTC_80534] ==> ignore
+    arg [cmTC_b87c5] ==> ignore
     arg [/Users/manina7539/Desktop/Driver/Android/Sdk/ndk-bundle/platforms/android-18/arch-arm/usr/lib/../lib/crtbegin_dynamic.o] ==> ignore
     arg [-L/Users/manina7539/Desktop/Driver/Android/Sdk/ndk-bundle/toolchains/llvm/prebuilt/darwin-x86_64/lib64/clang/5.0.300080/lib/linux/arm] ==> dir [/Users/manina7539/Desktop/Driver/Android/Sdk/ndk-bundle/toolchains/llvm/prebuilt/darwin-x86_64/lib64/clang/5.0.300080/lib/linux/arm]
     arg [-L/Users/manina7539/Desktop/Driver/Android/Sdk/ndk-bundle/toolchains/arm-linux-androideabi-4.9/prebuilt/darwin-x86_64/lib/gcc/arm-linux-androideabi/4.9.x/armv7-a/thumb] ==> dir [/Users/manina7539/Desktop/Driver/Android/Sdk/ndk-bundle/toolchains/arm-linux-androideabi-4.9/prebuilt/darwin-x86_64/lib/gcc/arm-linux-androideabi/4.9.x/armv7-a/thumb]
@@ -230,7 +230,7 @@ Parsed CXX implicit link information from above output:
     arg [-znow] ==> ignore
     arg [--gc-sections] ==> ignore
     arg [-znocopyreloc] ==> ignore
-    arg [CMakeFiles/cmTC_80534.dir/CMakeCXXCompilerABI.cpp.o] ==> ignore
+    arg [CMakeFiles/cmTC_b87c5.dir/CMakeCXXCompilerABI.cpp.o] ==> ignore
     arg [-lstdc++] ==> lib [stdc++]
     arg [-lm] ==> lib [m]
     arg [-lgcc] ==> lib [gcc]
@@ -259,11 +259,11 @@ Parsed CXX implicit link information from above output:
 
 
 Detecting CXX [-std=c++14] compiler features compiled with the following output:
-Change Dir: /Users/manina7539/Desktop/git/android/googles-ndk-samples/gles3jni/app/.externalNativeBuild/cmake/release/armeabi-v7a/CMakeFiles/CMakeTmp
+Change Dir: /Users/manina7539/Desktop/git/android/gles3jni/app/.externalNativeBuild/cmake/release/armeabi-v7a/CMakeFiles/CMakeTmp
 
-Run Build Command:"/Users/manina7539/Desktop/Driver/Android/Sdk/cmake/3.6.4111459/bin/ninja" "cmTC_d910d"
-[1/2] Building CXX object CMakeFiles/cmTC_d910d.dir/feature_tests.cxx.o
-[2/2] Linking CXX executable cmTC_d910d
+Run Build Command:"/Users/manina7539/Desktop/Driver/Android/Sdk/cmake/3.6.4111459/bin/ninja" "cmTC_f5819"
+[1/2] Building CXX object CMakeFiles/cmTC_f5819.dir/feature_tests.cxx.o
+[2/2] Linking CXX executable cmTC_f5819
 
 
     Feature record: CXX_FEATURE:1cxx_aggregate_default_initializers
@@ -326,11 +326,11 @@ Run Build Command:"/Users/manina7539/Desktop/Driver/Android/Sdk/cmake/3.6.411145
 
 
 Detecting CXX [-std=c++11] compiler features compiled with the following output:
-Change Dir: /Users/manina7539/Desktop/git/android/googles-ndk-samples/gles3jni/app/.externalNativeBuild/cmake/release/armeabi-v7a/CMakeFiles/CMakeTmp
+Change Dir: /Users/manina7539/Desktop/git/android/gles3jni/app/.externalNativeBuild/cmake/release/armeabi-v7a/CMakeFiles/CMakeTmp
 
-Run Build Command:"/Users/manina7539/Desktop/Driver/Android/Sdk/cmake/3.6.4111459/bin/ninja" "cmTC_f2d97"
-[1/2] Building CXX object CMakeFiles/cmTC_f2d97.dir/feature_tests.cxx.o
-[2/2] Linking CXX executable cmTC_f2d97
+Run Build Command:"/Users/manina7539/Desktop/Driver/Android/Sdk/cmake/3.6.4111459/bin/ninja" "cmTC_225ef"
+[1/2] Building CXX object CMakeFiles/cmTC_225ef.dir/feature_tests.cxx.o
+[2/2] Linking CXX executable cmTC_225ef
 
 
     Feature record: CXX_FEATURE:0cxx_aggregate_default_initializers
@@ -393,11 +393,11 @@ Run Build Command:"/Users/manina7539/Desktop/Driver/Android/Sdk/cmake/3.6.411145
 
 
 Detecting CXX [-std=c++98] compiler features compiled with the following output:
-Change Dir: /Users/manina7539/Desktop/git/android/googles-ndk-samples/gles3jni/app/.externalNativeBuild/cmake/release/armeabi-v7a/CMakeFiles/CMakeTmp
+Change Dir: /Users/manina7539/Desktop/git/android/gles3jni/app/.externalNativeBuild/cmake/release/armeabi-v7a/CMakeFiles/CMakeTmp
 
-Run Build Command:"/Users/manina7539/Desktop/Driver/Android/Sdk/cmake/3.6.4111459/bin/ninja" "cmTC_4afe1"
-[1/2] Building CXX object CMakeFiles/cmTC_4afe1.dir/feature_tests.cxx.o
-[2/2] Linking CXX executable cmTC_4afe1
+Run Build Command:"/Users/manina7539/Desktop/Driver/Android/Sdk/cmake/3.6.4111459/bin/ninja" "cmTC_d439d"
+[1/2] Building CXX object CMakeFiles/cmTC_d439d.dir/feature_tests.cxx.o
+[2/2] Linking CXX executable cmTC_d439d
 
 
     Feature record: CXX_FEATURE:0cxx_aggregate_default_initializers

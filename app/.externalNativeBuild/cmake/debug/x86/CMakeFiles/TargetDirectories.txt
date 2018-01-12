@@ -1,3 +1,3 @@
-/Users/manina7539/Desktop/git/android/googles-ndk-samples/gles3jni/app/.externalNativeBuild/cmake/debug/x86/CMakeFiles/edit_cache.dir
-/Users/manina7539/Desktop/git/android/googles-ndk-samples/gles3jni/app/.externalNativeBuild/cmake/debug/x86/CMakeFiles/rebuild_cache.dir
-/Users/manina7539/Desktop/git/android/googles-ndk-samples/gles3jni/app/.externalNativeBuild/cmake/debug/x86/CMakeFiles/gles3jni.dir
+/Users/manina7539/Desktop/git/android/gles3jni/app/.externalNativeBuild/cmake/debug/x86/CMakeFiles/edit_cache.dir
+/Users/manina7539/Desktop/git/android/gles3jni/app/.externalNativeBuild/cmake/debug/x86/CMakeFiles/rebuild_cache.dir
+/Users/manina7539/Desktop/git/android/gles3jni/app/.externalNativeBuild/cmake/debug/x86/CMakeFiles/gles3jni.dir

@@ -82,6 +82,7 @@ extern GLuint createProgram(const char* vtxSrc, const char* fragSrc);
 class Renderer {
 public:
     virtual ~Renderer();
+    virtual bool loadShaderInText(const char *vertexShader, const char *fragmentShader);
     void resize(int w, int h);
     void render();
 
@@ -112,5 +113,7 @@ private:
 
 extern Renderer* createES2Renderer();
 extern Renderer* createES3Renderer();
+extern Renderer* createES2RendererWithShader(const char *vertexShader, const char *fragmentShader);
+extern Renderer* createES3RendererWithShader(const char *vertexShader, const char *fragmentShader);
 
 #endif // GLES3JNI_H

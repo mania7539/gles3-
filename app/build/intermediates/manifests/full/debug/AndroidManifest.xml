@@ -28,7 +28,8 @@
         android:debuggable="true"
         android:fullBackupContent="false"
         android:icon="@mipmap/ic_launcher"
-        android:label="@string/gles3jni_activity" >
+        android:label="@string/gles3jni_activity"
+        android:testOnly="true" >
         <activity
             android:name="com.android.gles3jni.GLES3JNIActivity"
             android:configChanges="orientation|keyboardHidden"

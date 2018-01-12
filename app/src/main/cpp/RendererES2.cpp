@@ -17,7 +17,9 @@
 #include "gles3jni.h"
 #include <EGL/egl.h>
 
-static const char VERTEX_SHADER[] =
+//static const char* VERTEX_SHADER;
+//static const char* FRAGMENT_SHADER;
+static const char* VERTEX_SHADER =
     "#version 100\n"
     "uniform mat2 scaleRot;\n"
     "uniform vec2 offset;\n"
@@ -29,7 +31,7 @@ static const char VERTEX_SHADER[] =
     "    vColor = color;\n"
     "}\n";
 
-static const char FRAGMENT_SHADER[] =
+static const char* FRAGMENT_SHADER =
     "#version 100\n"
     "precision mediump float;\n"
     "varying vec4 vColor;\n"
@@ -41,6 +43,7 @@ class RendererES2: public Renderer {
 public:
     RendererES2();
     virtual ~RendererES2();
+    virtual bool loadShaderInText(const char *vertexShader, const char *fragmentShader);
     bool init();
 
 private:
@@ -71,6 +74,16 @@ Renderer* createES2Renderer() {
     return renderer;
 }
 
+Renderer* createES2RendererWithShader(const char *vertexShader, const char *fragmentShader) {
+    RendererES2* renderer = new RendererES2;
+    renderer->loadShaderInText(fragmentShader, vertexShader);
+    if (!renderer->init()) {
+        delete renderer;
+        return NULL;
+    }
+    return renderer;
+}
+
 RendererES2::RendererES2()
 :   mEglContext(eglGetCurrentContext()),
     mProgram(0),
@@ -80,6 +93,12 @@ RendererES2::RendererES2()
     mScaleRotUniform(-1),
     mOffsetUniform(-1)
 {}
+
+bool RendererES2::loadShaderInText(const char *vertexShader, const char *fragmentShader) {
+    VERTEX_SHADER = vertexShader;
+    FRAGMENT_SHADER = fragmentShader;
+    return true;
+}
 
 bool RendererES2::init() {
     mProgram = createProgram(VERTEX_SHADER, FRAGMENT_SHADER);

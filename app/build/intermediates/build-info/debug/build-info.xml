@@ -6,8 +6,8 @@
     density="xxhdpi"
     format="10"
     plugin-version="3.0.1"
-    timestamp="1515664018937"
-    token="1388069927596752852"
+    timestamp="1515754640524"
+    token="-3694442825437785616"
     verifier="COLD_SWAP_REQUESTED" >
 
     <task
@@ -24,53 +24,62 @@
         duration="0" />
 
     <artifact
-        location="/Users/manina7539/Desktop/git/android/googles-ndk-samples/gles3jni/app/build/outputs/apk/debug/app-debug.apk"
+        location="/Users/manina7539/Desktop/git/android/gles3jni/app/build/outputs/apk/debug/app-debug.apk"
         type="SPLIT_MAIN" />
 
     <build
         build-mode="FULL"
-        timestamp="1515658464514"
+        timestamp="1515751075050"
         verifier="FULL_BUILD_REQUESTED" >
         <artifact
-            location="/Users/manina7539/Desktop/git/android/googles-ndk-samples/gles3jni/app/build/intermediates/split-apk/debug/slices/slice_0.apk"
+            location="/Users/manina7539/Desktop/git/android/gles3jni/app/build/intermediates/split-apk/debug/slices/slice_1.apk"
             type="SPLIT" />
         <artifact
-            location="/Users/manina7539/Desktop/git/android/googles-ndk-samples/gles3jni/app/build/outputs/apk/debug/app-debug.apk"
+            location="/Users/manina7539/Desktop/git/android/gles3jni/app/build/intermediates/split-apk/debug/slices/slice_4.apk"
+            type="SPLIT" />
+        <artifact
+            location="/Users/manina7539/Desktop/git/android/gles3jni/app/build/intermediates/split-apk/debug/slices/slice_5.apk"
+            type="SPLIT" />
+        <artifact
+            location="/Users/manina7539/Desktop/git/android/gles3jni/app/build/intermediates/split-apk/debug/slices/slice_3.apk"
+            type="SPLIT" />
+        <artifact
+            location="/Users/manina7539/Desktop/git/android/gles3jni/app/build/intermediates/split-apk/debug/slices/slice_2.apk"
+            type="SPLIT" />
+        <artifact
+            location="/Users/manina7539/Desktop/git/android/gles3jni/app/build/intermediates/split-apk/debug/slices/slice_6.apk"
+            type="SPLIT" />
+        <artifact
+            location="/Users/manina7539/Desktop/git/android/gles3jni/app/build/intermediates/split-apk/debug/slices/slice_0.apk"
+            type="SPLIT" />
+        <artifact
+            location="/Users/manina7539/Desktop/git/android/gles3jni/app/build/intermediates/split-apk/debug/slices/slice_7.apk"
+            type="SPLIT" />
+        <artifact
+            location="/Users/manina7539/Desktop/git/android/gles3jni/app/build/intermediates/split-apk/debug/slices/slice_9.apk"
+            type="SPLIT" />
+        <artifact
+            location="/Users/manina7539/Desktop/git/android/gles3jni/app/build/intermediates/split-apk/debug/slices/slice_8.apk"
+            type="SPLIT" />
+        <artifact
+            location="/Users/manina7539/Desktop/git/android/gles3jni/app/build/outputs/apk/debug/app-debug.apk"
             type="SPLIT_MAIN" />
+    </build>
+    <build
+        build-mode="COLD"
+        ir-eligibility="COMPATIBLE"
+        timestamp="1515754128347"
+        verifier="COLD_SWAP_REQUESTED" >
         <artifact
-            location="/Users/manina7539/Desktop/git/android/googles-ndk-samples/gles3jni/app/build/intermediates/split-apk/debug/slices/slice_8.apk"
-            type="SPLIT" />
-        <artifact
-            location="/Users/manina7539/Desktop/git/android/googles-ndk-samples/gles3jni/app/build/intermediates/split-apk/debug/slices/slice_3.apk"
-            type="SPLIT" />
-        <artifact
-            location="/Users/manina7539/Desktop/git/android/googles-ndk-samples/gles3jni/app/build/intermediates/split-apk/debug/slices/slice_2.apk"
-            type="SPLIT" />
-        <artifact
-            location="/Users/manina7539/Desktop/git/android/googles-ndk-samples/gles3jni/app/build/intermediates/split-apk/debug/slices/slice_1.apk"
-            type="SPLIT" />
-        <artifact
-            location="/Users/manina7539/Desktop/git/android/googles-ndk-samples/gles3jni/app/build/intermediates/split-apk/debug/slices/slice_5.apk"
-            type="SPLIT" />
-        <artifact
-            location="/Users/manina7539/Desktop/git/android/googles-ndk-samples/gles3jni/app/build/intermediates/split-apk/debug/slices/slice_4.apk"
-            type="SPLIT" />
-        <artifact
-            location="/Users/manina7539/Desktop/git/android/googles-ndk-samples/gles3jni/app/build/intermediates/split-apk/debug/slices/slice_9.apk"
-            type="SPLIT" />
-        <artifact
-            location="/Users/manina7539/Desktop/git/android/googles-ndk-samples/gles3jni/app/build/intermediates/split-apk/debug/slices/slice_6.apk"
-            type="SPLIT" />
-        <artifact
-            location="/Users/manina7539/Desktop/git/android/googles-ndk-samples/gles3jni/app/build/intermediates/split-apk/debug/slices/slice_7.apk"
+            location="/Users/manina7539/Desktop/git/android/gles3jni/app/build/intermediates/split-apk/debug/slices/slice_0.apk"
             type="SPLIT" />
     </build>
     <build
         build-mode="COLD"
-        timestamp="1515664018937"
+        timestamp="1515754640524"
         verifier="COLD_SWAP_REQUESTED" >
         <artifact
-            location="/Users/manina7539/Desktop/git/android/googles-ndk-samples/gles3jni/app/build/outputs/apk/debug/app-debug.apk"
+            location="/Users/manina7539/Desktop/git/android/gles3jni/app/build/outputs/apk/debug/app-debug.apk"
             type="SPLIT_MAIN" />
     </build>
 
