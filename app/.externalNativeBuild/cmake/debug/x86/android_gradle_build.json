@@ -1,0 +1,60 @@
+
+{
+	"buildFiles" : 
+	[
+		"/Users/manina7539/Desktop/git/android/googles-ndk-samples/gles3jni/app/src/main/cpp/CMakeLists.txt"
+	],
+	"cFileExtensions" : [ "c" ],
+	"cleanCommands" : 
+	[
+		"/Users/manina7539/Desktop/Driver/Android/Sdk/cmake/3.6.4111459/bin/cmake --build /Users/manina7539/Desktop/git/android/googles-ndk-samples/gles3jni/app/.externalNativeBuild/cmake/debug/x86 --target clean"
+	],
+	"cppFileExtensions" : [ "cpp" ],
+	"libraries" : 
+	{
+		"gles3jni-Debug-x86" : 
+		{
+			"abi" : "x86",
+			"artifactName" : "gles3jni",
+			"buildCommand" : "/Users/manina7539/Desktop/Driver/Android/Sdk/cmake/3.6.4111459/bin/cmake --build /Users/manina7539/Desktop/git/android/googles-ndk-samples/gles3jni/app/.externalNativeBuild/cmake/debug/x86 --target gles3jni",
+			"buildType" : "debug",
+			"files" : 
+			[
+				
+				{
+					"flags" : "  --target=i686-none-linux-android --gcc-toolchain=/Users/manina7539/Desktop/Driver/Android/Sdk/ndk-bundle/toolchains/x86-4.9/prebuilt/darwin-x86_64 --sysroot=/Users/manina7539/Desktop/Driver/Android/Sdk/ndk-bundle/sysroot -Dgles3jni_EXPORTS  -isystem /Users/manina7539/Desktop/Driver/Android/Sdk/ndk-bundle/sysroot/usr/include/i686-linux-android -D__ANDROID_API__=18 -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -mstackrealign -Wa,--noexecstack -Wformat -Werror=format-security  -Wall -O0 -fno-limit-debug-info  -fPIC      -c ",
+					"src" : "/Users/manina7539/Desktop/git/android/googles-ndk-samples/gles3jni/app/src/main/cpp/gl3stub_wrapper.c",
+					"workingDirectory" : "/Users/manina7539/Desktop/git/android/googles-ndk-samples/gles3jni/app/.externalNativeBuild/cmake/debug/x86"
+				},
+				
+				{
+					"flags" : "  --target=i686-none-linux-android --gcc-toolchain=/Users/manina7539/Desktop/Driver/Android/Sdk/ndk-bundle/toolchains/x86-4.9/prebuilt/darwin-x86_64 --sysroot=/Users/manina7539/Desktop/Driver/Android/Sdk/ndk-bundle/sysroot  -Dgles3jni_EXPORTS -isystem /Users/manina7539/Desktop/Driver/Android/Sdk/ndk-bundle/sources/cxx-stl/gnu-libstdc++/4.9/include -isystem /Users/manina7539/Desktop/Driver/Android/Sdk/ndk-bundle/sources/cxx-stl/gnu-libstdc++/4.9/libs/x86/include -isystem /Users/manina7539/Desktop/Driver/Android/Sdk/ndk-bundle/sources/cxx-stl/gnu-libstdc++/4.9/include/backward  -isystem /Users/manina7539/Desktop/Driver/Android/Sdk/ndk-bundle/sysroot/usr/include/i686-linux-android -D__ANDROID_API__=18 -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -mstackrealign -Wa,--noexecstack -Wformat -Werror=format-security   -std=c++11 -fno-rtti -fno-exceptions -Wall -O0 -fno-limit-debug-info  -fPIC    -c ",
+					"src" : "/Users/manina7539/Desktop/git/android/googles-ndk-samples/gles3jni/app/src/main/cpp/gles3jni.cpp",
+					"workingDirectory" : "/Users/manina7539/Desktop/git/android/googles-ndk-samples/gles3jni/app/.externalNativeBuild/cmake/debug/x86"
+				},
+				
+				{
+					"flags" : "  --target=i686-none-linux-android --gcc-toolchain=/Users/manina7539/Desktop/Driver/Android/Sdk/ndk-bundle/toolchains/x86-4.9/prebuilt/darwin-x86_64 --sysroot=/Users/manina7539/Desktop/Driver/Android/Sdk/ndk-bundle/sysroot  -Dgles3jni_EXPORTS -isystem /Users/manina7539/Desktop/Driver/Android/Sdk/ndk-bundle/sources/cxx-stl/gnu-libstdc++/4.9/include -isystem /Users/manina7539/Desktop/Driver/Android/Sdk/ndk-bundle/sources/cxx-stl/gnu-libstdc++/4.9/libs/x86/include -isystem /Users/manina7539/Desktop/Driver/Android/Sdk/ndk-bundle/sources/cxx-stl/gnu-libstdc++/4.9/include/backward  -isystem /Users/manina7539/Desktop/Driver/Android/Sdk/ndk-bundle/sysroot/usr/include/i686-linux-android -D__ANDROID_API__=18 -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -mstackrealign -Wa,--noexecstack -Wformat -Werror=format-security   -std=c++11 -fno-rtti -fno-exceptions -Wall -O0 -fno-limit-debug-info  -fPIC    -c ",
+					"src" : "/Users/manina7539/Desktop/git/android/googles-ndk-samples/gles3jni/app/src/main/cpp/RendererES2.cpp",
+					"workingDirectory" : "/Users/manina7539/Desktop/git/android/googles-ndk-samples/gles3jni/app/.externalNativeBuild/cmake/debug/x86"
+				},
+				
+				{
+					"flags" : "  --target=i686-none-linux-android --gcc-toolchain=/Users/manina7539/Desktop/Driver/Android/Sdk/ndk-bundle/toolchains/x86-4.9/prebuilt/darwin-x86_64 --sysroot=/Users/manina7539/Desktop/Driver/Android/Sdk/ndk-bundle/sysroot  -Dgles3jni_EXPORTS -isystem /Users/manina7539/Desktop/Driver/Android/Sdk/ndk-bundle/sources/cxx-stl/gnu-libstdc++/4.9/include -isystem /Users/manina7539/Desktop/Driver/Android/Sdk/ndk-bundle/sources/cxx-stl/gnu-libstdc++/4.9/libs/x86/include -isystem /Users/manina7539/Desktop/Driver/Android/Sdk/ndk-bundle/sources/cxx-stl/gnu-libstdc++/4.9/include/backward  -isystem /Users/manina7539/Desktop/Driver/Android/Sdk/ndk-bundle/sysroot/usr/include/i686-linux-android -D__ANDROID_API__=18 -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -mstackrealign -Wa,--noexecstack -Wformat -Werror=format-security   -std=c++11 -fno-rtti -fno-exceptions -Wall -O0 -fno-limit-debug-info  -fPIC    -c ",
+					"src" : "/Users/manina7539/Desktop/git/android/googles-ndk-samples/gles3jni/app/src/main/cpp/RendererES3.cpp",
+					"workingDirectory" : "/Users/manina7539/Desktop/git/android/googles-ndk-samples/gles3jni/app/.externalNativeBuild/cmake/debug/x86"
+				}
+			],
+			"output" : "/Users/manina7539/Desktop/git/android/googles-ndk-samples/gles3jni/app/build/intermediates/cmake/debug/obj/x86/libgles3jni.so",
+			"toolchain" : "9315621909574234343"
+		}
+	},
+	"toolchains" : 
+	{
+		"9315621909574234343" : 
+		{
+			"cCompilerExecutable" : "/Users/manina7539/Desktop/Driver/Android/Sdk/ndk-bundle/toolchains/llvm/prebuilt/darwin-x86_64/bin/clang",
+			"cppCompilerExecutable" : "/Users/manina7539/Desktop/Driver/Android/Sdk/ndk-bundle/toolchains/llvm/prebuilt/darwin-x86_64/bin/clang++"
+		}
+	}
+}
