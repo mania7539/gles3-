@@ -1,1 +1,3 @@
 include ':app'
+include ':openCVLibrary320'
+project(':openCVLibrary320').projectDir = new File('openCVLibrary320/sdk/java')

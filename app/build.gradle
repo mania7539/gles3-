@@ -1,8 +1,9 @@
 apply plugin: 'com.android.application'
 
 //def platformVersion = 24      // openGLES 3.2 min api level
- def platformVersion = 18    //openGLES 3 min api level
+//def platformVersion = 18       //openGLES 3 min api level
 // def platformVersion = 12    //openGLES 2 min api level
+def platformVersion = 21
 
 android {
     compileSdkVersion 25
@@ -18,7 +19,14 @@ android {
                     // other ndk flags could also be configured there [cppFlags, cFlags...]
                 arguments "-DANDROID_PLATFORM_LEVEL=${platformVersion}",
                           '-DANDROID_TOOLCHAIN=clang', '-DANDROID_STL=gnustl_static'
+                cppFlags "-frtti -fexceptions"
+                abiFilters 'x86', 'x86_64', 'armeabi', 'armeabi-v7a', 'arm64-v8a', 'mips', 'mips64'
             }
+        }
+    }
+    sourceSets {
+        main {
+            jniLibs.srcDirs = ['src/main/jniLibs']
         }
     }
     buildTypes {
@@ -33,4 +41,12 @@ android {
             path 'src/main/cpp/CMakeLists.txt'
         }
     }
+}
+
+dependencies {
+    compile fileTree(include: ['*.jar'], dir: 'libs')
+    androidTestCompile('com.android.support.test.espresso:espresso-core:2.2.2', {
+        exclude group: 'com.android.support', module: 'support-annotations'
+    })
+    compile project(':openCVLibrary320')
 }

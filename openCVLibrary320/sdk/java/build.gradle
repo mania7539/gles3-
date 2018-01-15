@@ -1,0 +1,41 @@
+/*
+* OpenCV 3.2 for Android
+*   sdk downloaded from:
+*   https://opencv.org/opencv-3-2.html
+*   https://sourceforge.net/projects/opencvlibrary/files/opencv-android/3.2.0/
+*/
+
+apply plugin: 'com.android.library'
+
+buildscript {
+    repositories {
+        mavenCentral()
+    }
+    dependencies {
+        classpath 'com.android.tools.build:gradle:3.0.1'
+    }
+}
+
+android {
+    compileSdkVersion 21
+
+    defaultConfig {
+        minSdkVersion 21
+        targetSdkVersion 21
+        versionCode 2480
+        versionName "2.4.8"
+    }
+
+    sourceSets {
+        main {
+            manifest.srcFile 'AndroidManifest.xml'
+            java.srcDirs = ['src']
+            resources.srcDirs = ['src']
+            res.srcDirs = ['res']
+            aidl.srcDirs = ['src']
+            //jni.srcDirs = [jni.srcDirs, 'src/sdk/native/jni/include']
+            //jniLibs.srcDirs = [jniLibs.srcDirs, 'src/sdk/native/3rdparty/libs', 'src/sdk/native/libs']
+
+        }
+    }
+}
