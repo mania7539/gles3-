@@ -25,9 +25,9 @@
 #define SCALEROT_ATTRIB 2
 #define OFFSET_ATTRIB 3
 
-//static const char* VERTEX_SHADER;
-//static const char* FRAGMENT_SHADER;
-static const char* VERTEX_SHADER =
+static const char* VERTEX_SHADER;
+static const char* FRAGMENT_SHADER;
+static const char* VERTEX_SHADER2 =
     "#version 300 es\n"
     "layout(location = " STRV(POS_ATTRIB) ") in vec2 pos;\n"
     "layout(location=" STRV(COLOR_ATTRIB) ") in vec4 color;\n"
@@ -40,7 +40,7 @@ static const char* VERTEX_SHADER =
     "    vColor = color;\n"
     "}\n";
 
-static const char* FRAGMENT_SHADER =
+static const char* FRAGMENT_SHADER2 =
     "#version 300 es\n"
     "precision mediump float;\n"
     "in vec4 vColor;\n"
@@ -102,6 +102,9 @@ RendererES3::RendererES3()
 bool RendererES3::loadShaderInText(const char *vertexShader, const char *fragmentShader) {
     VERTEX_SHADER = vertexShader;
     FRAGMENT_SHADER = fragmentShader;
+
+    __android_log_print(ANDROID_LOG_WARN, "loadShaderInText", "VERTEX_SHADER2: \n%s", VERTEX_SHADER2);
+    __android_log_print(ANDROID_LOG_WARN, "loadShaderInText", "FRAGMENT_SHADER2: \n%s", FRAGMENT_SHADER2);
 
     __android_log_print(ANDROID_LOG_WARN, "loadShaderInText", "VERTEX_SHADER: \n%s", VERTEX_SHADER);
     __android_log_print(ANDROID_LOG_WARN, "loadShaderInText", "FRAGMENT_SHADER: \n%s", FRAGMENT_SHADER);

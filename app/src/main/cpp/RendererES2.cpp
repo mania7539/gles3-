@@ -17,9 +17,9 @@
 #include "gles3jni.h"
 #include <EGL/egl.h>
 
-//static const char* VERTEX_SHADER;
-//static const char* FRAGMENT_SHADER;
-static const char* VERTEX_SHADER =
+static const char* VERTEX_SHADER;
+static const char* FRAGMENT_SHADER;
+static const char* VERTEX_SHADER2 =
     "#version 100\n"
     "uniform mat2 scaleRot;\n"
     "uniform vec2 offset;\n"
@@ -31,7 +31,7 @@ static const char* VERTEX_SHADER =
     "    vColor = color;\n"
     "}\n";
 
-static const char* FRAGMENT_SHADER =
+static const char* FRAGMENT_SHADER2 =
     "#version 100\n"
     "precision mediump float;\n"
     "varying vec4 vColor;\n"
